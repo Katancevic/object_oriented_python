@@ -1,0 +1,39 @@
+Članovi klase su, uopšteno rečeno, sami podaci u njoj. Ovi članovi mogu biti podaci ili metode.
+
+Članove klase možemo podeliti na:
+
+instancne – instancni članovi klase su vezani za objekte, tj. instance;
+klasne – klasni članovi klase, kako im i sam naziv govori, predstavljaju podatke koji se tiču klase.
+
+Pod članovima klase podrazumevamo:
+
+polja;
+metode;
+druge klase.
+
+privatni (private) – članovi su vidljivi samo u okviru klase u kojoj se nalaze; ovi članovi nazivaju se privatnim članovima klase (private class members);
+zaštićeni (protected) – elementi su dostupni iz same klase gde su definisani i iz izvedenih klasa, ali ne i korisnicima spolja i nazivaju se zaštićenim članovima klase (protected class members);
+javni (public) – bilo koji objekat ima pristup nad elementom, dakle dostupni su spolja i nazivamo ih javnim članovima klase (public class members).
+
+Polja klase
+pr:
+class Car:
+    made_in = "" -> polje klase
+    model = ""
+    doorsNumber = 0
+    wheels = 4
+
+    metode
+
+class Person:
+    def sayHello(self):
+        print("Hello!!")
+ 
+object1 = Person()
+object1.sayHello()
+
+Prvi parametar metode koristimo za povezivanje metode i polja klase. (self)
+
+Ovo je upravo moguće, jer nam Python obezbeđuje i neke specijalne metode za rad sa klasama. Njihova imena počinju sa __ (dve donje crte) i završavaju se na isti način. 
+Nose zajednički naziv – magic metode. Jedna od ovih specijalnih metoda je tzv. konstruktor(_-init__).
+On se uvek kreira i poziva prilikom kreiranja objekta neke klase. Unutar konstruktora, možemo postaviti neke inicijalne vrednosti instanciranom objektu.

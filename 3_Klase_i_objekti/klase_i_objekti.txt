@@ -1,0 +1,27 @@
+U OOP-u, osnovni gradivni blok je objekat. Objekat je instanca strukture podataka koju smo definisali u okviru klase. Dakle, kada instanciramo klasu, pozivamo je u kodu
+Mi u stvari kreiramo njenu instancu, tj. objekat te klase.
+
+klasa u objektno orijentisanoj terminologiji predstavlja šablon za definisanje objekta.
+Ona definiše nazive i tipove promenljivih koje objekat može koristiti, kao i metode (funkcije) koje će predstavljati procedure za upravljanje tim promenljivama. Klasu možemo posmatrati kao tip,
+dok objekte možemo smatrati za promenljive tog tipa podatka.
+
+Stoga, iz dosadašnjeg primera, klase su nam potrebne radi:
+
+boljeg strukturiranja jednog projekta (više linija koda, koje bi možda bile odvojene funkcije, sada čuvamo u jednoj klasi);
+višestruke upotrebe komponenti projekta (jer gotove klase možemo koristiti na više mesta);
+raspodele odgovornosti (u razvojnom i sistemskom smislu, poput raspodele odgovornosti prilikom uništavanja i kreiranja objekata, naročito u složenim sistemima).
+
+	
+class Cookie:
+
+----------
+
+Cookie()
+
+----------
+
+Napisana linija upravo znači: napravi jedan objekat po šablonu Cookie. Kao što možete videti, ovo je identično pozivanju funkcije, samo što u ovom slučaju kreiramo objekat klase. 
+Naravno, ovo nije praksa i instanciranje klase uvek vršimo u okviru promenljive. 
+Tako promenljivu koristimo kao objekat klase, pomoću kojeg pristupamo nekim podacima ili funkcijama u klasi. Stoga bi linija glasila:
+
+oreo = Cookie()

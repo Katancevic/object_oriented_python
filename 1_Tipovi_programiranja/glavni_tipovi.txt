@@ -1,0 +1,6 @@
+Programe delimo na dve glavne podele,
+1. Imperativno
+2. Deklerativno
+
+Impeativno program naredbi, imperativ komanda. Procedualna i objektno programiranje C, C++, C#, PHP, Python, JavaScrtipt...
+Deklerativno uprosceno koriscenje gotovih elemenata. (HTML, SQL) 

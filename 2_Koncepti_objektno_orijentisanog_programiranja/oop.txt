@@ -1,0 +1,51 @@
+Postoje cetiri osnovne vrste oop.
+1. Class 
+2. Protptype
+3. Concurrent
+4. Actor
+
+Najkorisceniji i najoptimalnije vrste u Python su klasno i prototipsko programiranje.
+
+Za sve vrste postoje cetiri glavna principa koji se koriste i koja cini programski jezik objektno orjentisanim.
+
+1. Enkapsulacija
+2. Apstrakcija
+3. Polimorfizam
+4. Nasledjivanje
+
+
+- Enkapsulacija i apstrakcija
+
+Enkapsulacija podrazumeva skrivanje kompleksne logike.
+pr. paljenje automobila. Kada okrenemo kljic u bravi da bi smo pokrenuli motor, mi znamo da treba da okrenemo kljuc. 
+Medjutim ono sto ceo proces aktivacije motora porazumeva mnogo je kompleksnije ok okretanja kljuca.
+Enkapsulacija je pojam koji koristimo da opisemo nacin na koji je interfejs razdvojen od implementacije. 
+Dozvoljavamo koji delova koda su vidljivi a koji su skriveni.
+
+Dakle, sa gledišta korisnika (koji može biti i drugi programer):
+
+korisnik jedino treba da razume interfejs;
+korisnik ne treba da razume kako se implementacija obavlja i kako je ona kreirana.
+
+Sa gledišta programera:
+
+programer može da menja implementaciju, tj. njen kod, a korisnik neće videti promenu i ne mora biti obavešten o njoj. 
+enkapsulacija su i ugradjene funkcije i metode u Pythonu pr. print().
+
+
+Apstrakciju prvenstveno možemo posmatrati kao proširenje enkapsulacije. Enkapsulaciju koristimo kao mehanizam da zaokružimo jednu celinu koda i da ograničimo ko tu celinu vidi. 
+Na primeru televizora, jedna celina je displej.
+
+Apstrakcija se nadovezuje na ovo i definiše tačno koji su podaci sakriveni. Tim sakrivenim podacima ne mogu pristupiti druge celine u programu. Ujedno, 
+apstrakciju možemo koristiti i da definišemo šta je to zajedničko i dostupno.
+Na našem primeru, apstrakcija je činjenica da znamo da koristimo daljinski upravljač za upravljanje televizorom, ali nam je nepoznato kako televizor funkcioniše.
+
+ -Nasledjivanje
+
+ Kako je klasa jedna organizovana celina koda, nasleđivanjem klase iskorišćavamo kod u nekoj drugoj klasi. Klasa iz koje se koristi kod je bazna klasa ili roditelj, 
+ dok klasa koja taj kod koristi predstavlja izvedenu klasu ili dete. Kada dete-klasa nasledi roditeljsku klasu, ona može da koristi sve funkcije koje su napisane unutar roditeljske klase, 
+ što nama omogućava da iskoristimo već napisan kod.
+
+  -Polimorfizam
+Polimorfizam (od grčkih reči poly, što znači više ili nekoliko, i morph, što znači forma) predstavlja pojam koji označava da se jedna stvar može koristiti na više načina.
+
