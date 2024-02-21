@@ -6,7 +6,7 @@ class Kocka(threading.Thread):
         self.duz_stranice = duz_stranice
         self.zapremina = zapremina
 
-
+# komentar za komit
     def calc_zapremina(num):
         print(f"Запремина коцке je: {num * num * num}cm3")
 
