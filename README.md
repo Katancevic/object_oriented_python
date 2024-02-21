@@ -1,0 +1,2 @@
+# object_oriented_python
+Objektno_orjentisano_programiranje_Python
