@@ -2,7 +2,7 @@
 
 # sintakstne greske prilikom kucanje kodova upoznati sa ovim
 
-# logicne greske ne postoji probelm sa sintaksom ali ne bojemo dobar rezultat
+# logicne greske ne postoji probelm sa sintaksom ali ne dobojemo dobar rezultat
 
 a = float(input("Number1: "))
 b = float(input("Number2: "))
